@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control.ParagraphEditorController">
+  <children>
+    <MenuBar VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem fx:id="openParagraphButton" mnemonicParsing="false" text="Open…" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem fx:id="saveButton" mnemonicParsing="false" text="Save" />
+            <MenuItem fx:id="closeButton" mnemonicParsing="false" text="Close" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+      <ToolBar prefHeight="40.0" prefWidth="200.0">
+         <items>
+            <ComboBox fx:id="typeBox" prefHeight="25.0" prefWidth="230.0" promptText="Choose type" />
+            <Button fx:id="newTypeButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" text="New type" />
+            <TextField fx:id="nameField" prefHeight="25.0" prefWidth="230.0" promptText="Choose name" />
+         </items>
+      </ToolBar>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <TextArea fx:id="paragraphEditArea" layoutX="14.0" layoutY="8.0" prefHeight="335.0" prefWidth="640.0" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <padding>
+                  <Insets bottom="3.0" left="3.0" right="3.0" />
+               </padding>
+            </TextArea>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

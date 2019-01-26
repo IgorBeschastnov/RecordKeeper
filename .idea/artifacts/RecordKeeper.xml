@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="RecordKeeper">
+    <output-path>$PROJECT_DIR$/out/artifacts/RecordKeeper</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="alias" value="" />
+        <option name="appClass" value="Application.Main" />
+        <option name="description" value="Simple app to help generate repeating .docx files." />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="keystore" value="" />
+        <option name="nativeBundle" value="exe" />
+        <option name="title" value="Record Keeper" />
+        <option name="vendor" value="Igor Beschastnov" />
+        <option name="version" value="0.1" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="RecordKeeper.jar">
+        <element id="module-output" name="RecordKeeper" />
+      </element>
+      <element id="file-copy" path="$USER_HOME$/Libraries/JavaLibs/org.apache.commons.io.jar/org.apache.commons.io.jar" />
+      <element id="file-copy" path="$USER_HOME$/Libraries/JavaLibs/poi/poi-3.17.jar" />
+      <element id="file-copy" path="$USER_HOME$/Libraries/JavaLibs/poi/poi-ooxml-3.17.jar" />
+      <element id="file-copy" path="$USER_HOME$/Libraries/JavaLibs/poi/poi-ooxml-schemas-3.17.jar" />
+      <element id="file-copy" path="$USER_HOME$/Libraries/JavaLibs/poi/ooxml-lib/xmlbeans-2.6.0.jar" />
+    </root>
+  </artifact>
+</component>

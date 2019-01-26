@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+    <templatename>СДС 2</templatename>
+    <paragraph type="жалобы" name="жалобы 1"/>
+    <paragraph type="anamnesis morbi"/>
+    <paragraph type="anamnesis vitae"/>
+</template>
